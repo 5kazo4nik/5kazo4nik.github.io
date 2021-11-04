@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Fruktur', cursive;
+}
+
+.bd {
+  margin-top: 0;
+  background-color: rgb(224, 219, 222);
+}
+
+header {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  background-color: rgb(241, 226, 155);
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 40px;
+  font-family: 'Fruktur', cursive;
+  box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.24);
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 5%;
+  border: 2px solid black;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.24);
+}
+
+.hat h2 {
+  text-align: center;
+  font-family: inherit;
+  margin-top: 0;
+  padding-top: 8px;
+}
+.hat ul {
+  position: absolute;
+  top: 0%;
+  right: 5%;
+  color: #111;
+  text-decoration: none;
+  text-align: right;
+  margin-top: 5px;
+  font-style: oblique;
+}
+.hat li:nth-child(1) {
+  list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABOElEQVQ4ja3TzSqFYRAH8N+xODtHsWCBFScfxRXIHfjauAIbZUmydANuAEWyIJESa2sLhCNEyVdKuQEfi2eO3k4OC6am3pl55z///zzPwx8tVyXfhUEUI77AFkq/AdZhFe94wE74Q+RWUPip+Rh3GKhgl8MQ7nFUDWQ1mpt/YNgSIMtZZJLmk5hSgzO8oh83OJD20R3/b0TPeRloJpBzuMY+mvCBNeRxir0Y8IhpEUBb6P/AOvrQGLU8ZtGOKWmZRxF/2SJ247sBz7gNwLIfZgbuYSHL4Aq9IeEFo6iP2ibG0YPJ6OnFZZZBZ1AbyuSKmMNYxBOYxwje0KHCVqRFtlQWMtYqXaql74oFaTn3GM7IK0sdieZD1FabUJAuybt0VLvhT0F7qbK52mPqkB5TWWcJ2zIX59/sE4UzSXasL6ohAAAAAElFTkSuQmCC);
+}
+.hat li:nth-child(2) {
+  list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAA7klEQVQ4jc3SvUoEUQwF4A+12H0FcXuxFgQXH8OfShY7n8PSyhWbwUKw80HstNBda/UltJhxLG5kLtdZCxsNBObkJjknk/Df7Ahz1GgLr+NtkhesFMUVLnCCpmi+jG1cBr4q2ec4y/AQ4/AhNvGAKWZ98mvsx/cWXjL5z9iJJgeRC5YKiR/BdhMso/AnXEesidxv1mI3JLdYy95GERtHTtun4FfW1+Bemr/SjVBJ/+HupwZN4DfsYQOv4esRe5fmL1eMtMZphge6NQ6y+Dkev0B+SKe6I7ktWFaDeYxj6eh6bSKtatEpz3C4qPhv7BN8/j77m2rzpAAAAABJRU5ErkJggg==);
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+.avatar {
+  height: 250px;
+  width: 200px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  box-shadow: 5px 5px 4px rgba(104, 0, 0, 0.3);
+  margin-left: 7px;
+}
+
+.avatar:nth-child(2) {
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.info-text {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.info-text h2 {
+  margin-bottom: 10px;
+}
+
+.info-text h4 {
+  text-decoration: underline;
+  text-decoration-color: rgb(228, 18, 18);
+  margin-bottom: 10px;
+}
+
+.info-text p {
+  margin: 0;
+  color: #6e6c6c;
+}
+
+.info-text a {
+  color: rgb(228, 18, 18);
+}
+
+.hobbi {
+  background-color: rgb(228, 228, 143);
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.24);
+}
+
+.hobbi h2 {
+  margin-bottom: 10px;
+}
+
+.hobbi ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.hobbi li {
+  padding-bottom: 10px;
+  list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAABmJLR0QA/wD/AP+gvaeTAAAAw0lEQVQYlZXQvUoCcBQF8N/fDyIwMNGhRXIoHSKHxnqDXqDJwV5AImpw6BF8A1vCBxB7jbYgaLIxAoXAzXK5QkgZ3uVyv84957BBZNfMTjHH53/LV9hGA0+/LedRwDEyGGAPh3gVTdjHDS7QxQQ5POJgiZYitzDENOoTnAVYE9f4gCLu8IDaCvcyLmNWTrhFL47OUcEs9EwxCkc6OXwHnXfc/+HOFlJCCW184RnjELiLKo6Cez/9uE6ohzM78foNLwFkAc6fIIOnWwAYAAAAAElFTkSuQmCC);
+}
+
+.ttable {
+  padding: 20px;
+  background-color: thistle;
+  box-sizing: border-box;
+  border-radius: 40px;
+  margin-bottom: 25px;
+  box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.24);
+}
+
+.ttable td {
+  padding: 0px 5px 10px 0px;
+  text-align: center;
+  border-bottom: 2px solid rgb(165, 162, 162);
+}
+
+.ttable th {
+  text-decoration: line-through;
+}
+
+.ttable td:nth-child(3) {
+  color: rgb(228, 18, 18);
+}
+
+.assist {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  padding: 0px 20px 0px 20px;
+  background-color: rgb(20, 13, 58);
+  box-sizing: border-box;
+  border-radius: 40px;
+  color: rgb(238, 40, 34);
+  box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.24);
+}
+
+.assist ul {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.assist li {
+  padding-bottom: 10px;
+}
+
+.assist a {
+  color: rgb(238, 40, 34);
+}
+
+.picass {
+  box-sizing: border-box;
+  position: fixed;
+  left: 20%;
+  bottom: 0%;
+  background-color: rgb(20, 13, 58);
+  border-radius: 25px 25px 0px 0px;
+  box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.24);
+}
+
+.picass img {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 40, 34);
+}
+
+.picass ul {
+  list-style: none;
+  padding: 0px 2px 0px 2px;
+}
+
+.spec {
+  padding: 20px;
+  background-color: rgb(126, 62, 46);
+  box-sizing: border-box;
+  border-radius: 40px;
+  margin-bottom: 25px;
+  box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.24);
+}
+
+.spec ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.spec li {
+  padding: 0px 0px 10px 0px;
+}
+
+.spec a {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: violet;
+}
+
+.call h2 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.inp label {
+  display: block;
+  margin-bottom: 10px;
+  color: #6e6c6c;
+  font-size: 14px;
+}
+
+.inp input,
+.inp textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  color: red;
+  box-shadow: 0px 3px 3px rgba(17, 17, 17, 0.24);
+  padding: 15px 0px 10px;
+}
+
+.row > .inp {
+  width: 50%;
+}
+
+.inp:first-child {
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: rgb(20, 13, 58);
+  padding: 10px;
+  color: #ccc;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(1, 1, 1, 0.25);
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.foot {
+  width: 100%;
+  text-align: center;
+  font-family: 'Fruktur', cursive;
+  background-color: rgb(238, 40, 34);
+  box-sizing: border-box;
+  border-radius: 25px 25px 0 0;
+}
+
+.foot p {
+  margin-bottom: 0px;
+}
+
+.face {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 17.2%;
+  top: 29%;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+@media (max-width: 1750px) {
+  .assist {
+    display: none;
+  }
+  .picass {
+    display: none;
+  }
+  .face {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .hat {
+    display: none;
+  }
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
