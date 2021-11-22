@@ -304,7 +304,7 @@ a:active {
 
 .dan h5 {
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   margin-top: 15px;
 }
 
@@ -315,9 +315,21 @@ a:active {
   border-bottom: 1px solid rgb(238, 40, 34);
 }
 
-.pcheckbox:hover {
+.pcheckbox p {
+  margin: 0px 0px 5px 0px;
+  padding: 10px 45px 10px 45px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: rgb(209, 52, 52);
+}
+
+.pcheckbox p:hover {
+  background-color: indigo;
+}
+
+.pcheckbox p:hover {
   text-decoration: line-through;
-  text-decoration-color: rgb(238, 40, 34);
+  text-decoration-color: rgb(202, 26, 20);
 }
 
 .h2en {
