@@ -267,6 +267,7 @@ a:active {
   border-radius: 40px;
   margin-bottom: 25px;
   box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.24);
+  margin-bottom: 100px;
 }
 
 .spec ul {
@@ -282,6 +283,186 @@ a:active {
   text-decoration: underline;
   text-decoration-color: red;
   color: violet;
+}
+
+@keyframes alli-1 {
+  50% {
+    transform: scale(1.2, 1.2) translate(0, -20px);
+  }
+  to {
+    transform: scale(1, 0.8) translate(0, 30px);
+  }
+}
+
+@keyframes alli-2 {
+  to {
+    transform: scale(1.4, 1.4) translate(0, -40px);
+  }
+}
+
+@keyframes alli-3 {
+  to {
+    transform: scale(1.2, 0.8) translate(0, 40px);
+  }
+}
+
+@keyframes move-1 {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@keyframes move-2 {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@keyframes move-3 {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+.allies {
+  position: relative;
+}
+
+.allien {
+  display: flex;
+  justify-content: space-around;
+}
+
+.allies img {
+  padding: 150px 0px 0px 0px;
+}
+
+.first-allien {
+  animation: alli-1 4s ease-in-out infinite alternate;
+}
+.second-allien {
+  animation: alli-2 2.5s ease-in-out infinite alternate;
+}
+
+.third-allien {
+  animation: alli-3 2s ease-in-out infinite alternate;
+}
+
+.allies-attack {
+  display: flex;
+  justify-content: space-around;
+}
+
+.attack {
+  width: 100px;
+  height: 200px;
+  position: relative;
+}
+
+.first-attack i {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(170, 77, 54);
+  border-radius: 50%;
+  position: absolute;
+  left: 46%;
+  animation: move-1 2s ease-out infinite;
+}
+
+.second-attack i {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(202, 202, 38);
+  border-radius: 50%;
+  position: absolute;
+  left: 47%;
+  animation: move-2 2.5s ease-out infinite;
+}
+
+.third-attack i {
+  width: 7px;
+  height: 7px;
+  background-color: rgb(1, 112, 1);
+  position: absolute;
+  left: 73%;
+  border-radius: 50%;
+  animation: move-3 2.5s ease-out infinite;
+}
+
+.attack i:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.attack i:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.attack i:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.attack i:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.attack i:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.attack i:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.attack i:nth-child(7) {
+  animation-delay: 0.65s;
+}
+.attack i:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.attack i:nth-child(9) {
+  animation-delay: 0.75s;
+}
+.attack i:nth-child(10) {
+  animation-delay: 0.8s;
+}
+.attack i:nth-child(11) {
+  animation-delay: 0.85s;
+}
+.attack i:nth-child(12) {
+  animation-delay: 0.9s;
+}
+.attack i:nth-child(13) {
+  animation-delay: 0.95s;
+}
+.attack i:nth-child(14) {
+  animation-delay: 1s;
+}
+.attack i:nth-child(15) {
+  animation-delay: 1.05s;
+}
+.attack i:nth-child(16) {
+  animation-delay: 1.1;
+}
+.attack i:nth-child(17) {
+  animation-delay: 1.15;
+}
+.attack i:nth-child(18) {
+  animation-delay: 1.2;
+}
+.attack i:nth-child(19) {
+  animation-delay: 1.25;
+}
+.attack i:nth-child(20) {
+  animation-delay: 1.3;
+}
+.attack i:nth-child(21) {
+  animation-delay: 1.35;
+}
+.attack i:nth-child(22) {
+  animation-delay: 1.4;
 }
 
 .enemy img {
