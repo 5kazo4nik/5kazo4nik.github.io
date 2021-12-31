@@ -363,6 +363,21 @@ a:active {
   color: violet;
 }
 
+@-webkit-keyframes legion {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0.2;
+  }
+  50% {
+    transform: rotate(-135deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-225deg);
+    opacity: 0;
+  }
+}
+
 @keyframes legion {
   0% {
     transform: rotate(0deg);
@@ -378,6 +393,19 @@ a:active {
   }
 }
 
+@-webkit-keyframes friend-1 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-100px, 0);
+    border-color: rgb(236, 10, 10);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
 @keyframes friend-1 {
   0% {
     transform: translate(0);
@@ -385,6 +413,19 @@ a:active {
   50% {
     transform: translate(-100px, 0);
     border-color: rgb(236, 10, 10);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes friend-2 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(100px, 0);
+    border-color: rgb(23, 238, 41);
   }
   100% {
     transform: translate(0);
@@ -404,6 +445,19 @@ a:active {
   }
 }
 
+@-webkit-keyframes friend-3 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0, -100px);
+    border-color: rgba(56, 3, 204, 0.836);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
 @keyframes friend-3 {
   0% {
     transform: translate(0);
@@ -411,6 +465,19 @@ a:active {
   50% {
     transform: translate(0, -100px);
     border-color: rgba(56, 3, 204, 0.836);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes friend-4 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0, 100px);
+    border-color: rgb(196, 94, 26);
   }
   100% {
     transform: translate(0);
@@ -437,6 +504,7 @@ a:active {
   position: relative;
   margin: 0;
   animation: legion 2s ease-in-out infinite alternate;
+  -webkit-animation: legion 2s ease-in-out infinite alternate;
   padding: 100px;
 }
 
@@ -451,15 +519,19 @@ a:active {
 
 .f-box img:nth-child(1) {
   animation: friend-1 2s ease-in-out infinite;
+  -webkit-animation: friend-1 2s ease-in-out infinite;
 }
 .f-box img:nth-child(2) {
   animation: friend-2 2s ease-in-out infinite;
+  -webkit-animation: friend-2 2s ease-in-out infinite;
 }
 .f-box img:nth-child(3) {
   animation: friend-3 2s ease-in-out infinite;
+  -webkit-animation: friend-3 2s ease-in-out infinite;
 }
 .f-box img:nth-child(4) {
   animation: friend-4 2s ease-in-out infinite;
+  -webkit-animation: friend-4 2s ease-in-out infinite;
 }
 
 @keyframes alli-1 {
