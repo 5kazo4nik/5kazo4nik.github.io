@@ -2,10 +2,13 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/emoji/344/roll-of-paper.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link href="resume-styles.css" rel="stylesheet" />
   </head>
-  <body class="bd">
+  <body class="bd scrollspy-example" data-spy="scroll" data-target="#list-spy" data-offset="0">
     <ul class="slider">
       <li></li>
       <li></li>
@@ -29,8 +32,8 @@
         </ul>
       </header>
     </div>
-    <div class="container">
-      <div class="info">
+    <div class="container1">
+      <div class="info" id="info1">
         <img
           src="https://sun9-30.userapi.com/impg/DQy95S2b2XNf8TrUoLE2ct_pajGn3As_SQmgxQ/Lk-U8Yg4r08.jpg?size=1622x2160&quality=96&sign=04b01b67b80af2aa438055bd9ff43892&type=album"
           alt="Моя первая фотка"
@@ -50,13 +53,13 @@
           <a href="https://www.youtube.com/watch?v=xwqm3qw9_kQ" target="_blank">Временная <em>Аномалия,</em></a>
         </div>
       </div>
-      <div class="carousel">
+      <div class="carouselo">
         <span class="one-carousel carous"></span>
         <span class="two-carousel carous"></span>
         <span class="three-carousel carous"></span>
         <span class="four-carousel carous"></span>
       </div>
-      <div class="hobbi">
+      <div class="hobbi" id="hobby1">
         <h2>Мои хобби</h2>
         <ul>
           <li>Делать трунь, иногда трунь может вылететь из жопы</li>
@@ -67,7 +70,75 @@
           <li>Удивляться почему никто не хочет со мной общаться</li>
         </ul>
       </div>
-      <div class="ttable">
+      <section class="metro-station" id="metro1">
+        <h2>Любимые станции метро</h2>
+        <div class="first-cards">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.rgo.ru/sites/default/files/media/2015/12/dsc_2012.jpg" class="card-img-top" alt="Воробьевы горы">
+            <div class="card-body">
+              <h5 class="card-title">Воробьевы горы</h5>
+              <p class="card-text"> Название местности на юго-западе Москвы, представляющей собой высокий правый берег в излучине Москвы-реки (крутой обрыв Теплостанской возвышенности, подмытой течением реки), покрытый лесопарком.</p>
+              <a href="https://yandex.ru/maps/213/moscow/stops/station__9858805/?ll=37.559334%2C55.710433&tab=overview&z=16" target="_blank" class="btn btn-primary">Посмотреть на карте</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://ic.pics.livejournal.com/bluesmaker/10673470/834492/834492_original.jpg" class="card-img-top" alt="говорово">
+            <div class="card-body">
+              <h5 class="card-title">Говорово</h5>
+              <p class="card-text">Расположена в поселении Московский (НАО), у границы с районом Солнцево (ЗАО), южнее Боровского шоссе. Названа по близлежащей деревне Говорово. Открыта 30 августа 2018 года.</p>
+              <a href="https://yandex.ru/maps/213/moscow/stops/3176225007/?ll=37.417270%2C55.659551&tab=overview&z=16" target="_blank" class="btn btn-primary">Посмотреть на карте</a>
+            </div>
+          </div>
+        </div>
+        <div class="second-cards">
+          <div class="card" style="width: 18rem;">
+            <img src="https://s00.yaplakal.com/pics/pics_original/6/6/5/263566.jpg" class="card-img-top" alt="Библиотека">
+            <div class="card-body">
+              <h5 class="card-title">Библиотека имени Ленина</h5>
+              <p class="card-text"> Станция Сокольнической линии Московского метрополитена. Находится на территории Тверского района Центрального административного округа Москвы.  </p>
+              <a href="https://yandex.ru/maps/org/biblioteka_imeni_lenina/70071709686/?from=tabbar&ll=37.610225%2C55.751320&source=serp_navig&z=16" target="_blank" class="btn btn-primary">Посмотреть на карте</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://moskva.name/wp-content/uploads/2020/02/39681/stantsiya-metro-171-savelovskaya-187-foto.jpg" class="card-img-top" alt="Совок">
+            <div class="card-body">
+              <h5 class="card-title">Савёловская</h5>
+              <p class="card-text">Расположена на границе района Марьина Роща и Бутырского района (СВАО). Открыта 31 декабря 1988 года в составе участка «Чеховская» — «Савёловская».</p>
+              <a href="https://yandex.ru/maps/213/moscow/stops/station__9858899/?ll=37.588077%2C55.793695&tab=overview&z=16" target="_blank" class="btn btn-primary">Посмотреть на карте</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="evolution" id="walk1">
+        <h2 class="mb-1">Когда меня зовут гулять</h2>
+        <div id="carouselExampleIndicators" class="carousel slide carousel1" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="https://n1s1.hsmedia.ru/40/eb/a0/40eba0859fc73ee4035f658d41432f6f/880x680_0xac120003_415635271571828905.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="https://thumbs.dreamstime.com/b/%D0%BD%D0%B5%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%BD%D0%B0%D1%8F-%D0%B2%D1%8B%D1%87%D0%B5%D1%80%D1%87%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B4%D0%B8%D0%BD%D0%BE%D1%87%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0-%D1%85%D0%B0%D1%80%D0%B0%D0%BA%D1%82%D0%B5%D1%80%D0%B0-132341400.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="https://i.ytimg.com/vi/Vb4pVYAdiLo/maxresdefault.jpg" class="d-block w-100" alt="...">
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </a>
+      </div>
+    </div>
+      <div class="ttable" id="work1">
         <h2>Мой опыт трамбона на работе</h2>
         <table>
           <th>Жертва</th>
@@ -94,8 +165,8 @@
           </tr>
         </table>
       </div>
-      <aside class="assist">
-        <h3>Мои ассистенты:</h3>
+      <!-- <aside class="">
+        <h3>Мои ассистенты:</h3> 
         <ul>
           <li>
             <a href="https://vk.com/vladosaa" target="_blank">Владос <em>дикий</em> пиздос</a>
@@ -107,7 +178,45 @@
             <a href="https://vk.com/id143181948" target="_blank">Серега <em>косой</em> немного</a>
           </li>
         </ul>
-      </aside>
+      </aside> -->
+      <div class="assist" id="accordion1">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+              Владос
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion1">
+            <div class="accordion-body">
+              <a href="https://vk.com/vladosaa" target="_blank"><em>Дикий</em> пиздос</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              Кирил
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion1">
+            <div class="accordion-body">
+              <a href="https://vk.com/bad_keril" target="_blank"><strong>Жопу</strong> не побрил</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              Серега
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion1">
+            <div class="accordion-body">
+              <a href="https://vk.com/id143181948" target="_blank"><em>Косой</em> немного</a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="picass">
         <ul>
           <li>
@@ -127,7 +236,7 @@
           </li>
         </div>
       </ul>
-      <div class="asscar">
+      <div class="asscar" id="asscar1">
         <div class="asscarpic"> <img src="https://img.icons8.com/fluency/96/000000/full-of-shit.png" alt="Сруль" class="assсarv asscar1"/></div>
         <div class="asscarpic"> <img src="https://img.icons8.com/color/100/000000/move-shit-around.png" alt="уборщик" class="assсarv asscar2" /></div>
         <div class="asscarpic"> <img src="https://img.icons8.com/ultraviolet/100/000000/move-shit-around.png" alt="уборщик" class="assсarv asscar3"/></div>
@@ -137,7 +246,7 @@
         <div class="asscarpic"> <img src="https://img.icons8.com/doodle/96/000000/poo--v1.png" alt="Куча калообразований" class="assсarv asscar7" /></div>
         <div class="asscarpic"> <img src="https://img.icons8.com/color/96/000000/shit-hits-fan.png" alt="Случайно насрали"  class="assсarv asscar8"/></div>
       </div>
-      <aside class="spec">
+      <aside class="spec" id="spec1">
         <h3>Мои Особенности</h3>
         <ul>
           <li>На гитаре брынчать и под это мычать</li>
@@ -150,7 +259,7 @@
           <li><a href="https://www.youtube.com/watch?v=rHJgNYRqg8s&list=PL1f6dgjeUMBxwj6OdVDWTZeD-gVSr3pc2&index=3" target="_blank">Нажми или продрищешься в электричке</a></li>
         </ul>
       </aside> 
-      <div class="f-box">
+      <div class="f-box" id="f-box1">
         <img src="https://sun9-79.userapi.com/impf/6CWYJn_XENRrF3R68Jq2iEI_fBTiUIAJufrKqw/8a7yDS2wJDE.jpg?size=1006x960&quality=96&sign=41e07f47d1350a725b4e5e3778d2ae54&type=album" alt="Кирилл">
         <img src="https://sun9-69.userapi.com/impg/P6yHl1TEj2_7TRlUg1pjrDZ7rPLS_5weq5Sq4A/XAq2TuNNvDA.jpg?size=1600x1066&quality=96&sign=eb181369e37976a745ff2dccde28f3dc&type=album" alt="Влад">
         <img src="https://sun9-3.userapi.com/impg/34vWcZejXOYNX08mQtVodA4Zs60aJRNI08gh_g/IGIYyANbsLg.jpg?size=2560x1707&quality=96&sign=d69293395bf73307ce0118583c235597&type=album" alt="Сергей">
@@ -168,7 +277,7 @@
           <div class="third-attack attack"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
         </div>
       </div>
-      <div class="enemy">
+      <div class="enemy" id="enemy1">
         <h2 class="h2en">Противники идеи Извержения каловых масс</h2>
         <a href="https://vk.com/stanis__love" class="liza"><img src="https://sun9-52.userapi.com/impg/uuP76OBmtVHKTCohU-v-msGKfF-I1Tub5PIW5Q/R_sXeSUsf0w.jpg?size=1604x2160&quality=96&sign=b3cdef96ad0634de62f038eca3f90b4f&type=album  " alt="Лиза" class="imgliza" /></a>
         <a href="https://vk.com/neonilla_tonks" target="_blank"  class="dasha"><img src="https://sun9-28.userapi.com/impg/BPiwN0Xn7dp7h2L6Jwklp8xqbBjGhszjnrMx-w/D34fACyXrQM.jpg?size=1440x2160&quality=95&sign=66d34fe9ca216d8bbd62bd9955f460ef&type=album" alt="Даша" /></a>
@@ -186,10 +295,10 @@
           </div>
         </div>
       </div>
-      <div class="call">
+      <div class="call" id="call1">
         <h2>Связаться со мной для совместного задымления</h2>
         <form action="/">
-          <div class="row">
+          <div class="row1">
             <div class="inp">
               <label for="name">Ваше имя:</label>
               <input type="text" id="name" placeholder="Введите имя" />
@@ -210,6 +319,9 @@
         </form>
       </div>
       <img src="https://c.tenor.com/E05AfL5sZ08AAAAC/goku-lol.gif" alt="Твое лицо когда пробило" class="face" />
+      <div class="triangle_modal" data-bs-toggle="modal" data-bs-target="#myModal">
+        <div class="triangle"></div>
+      </div>
     </div>
     <div class="foot">
       <footer class="foot">
@@ -217,5 +329,54 @@
         <p>Надеюсь Мои подвиги не были напрасны и быть может после моей кончины кто-то продолжит моё дело...</p>
       </footer>
     </div>
+    <div id="list-spy" class="list-group">
+      <a class="list-group-item list-group-item-action" href="#info1">Основная информация</a>
+      <a class="list-group-item list-group-item-action" href="#hobby1">Хобби</a>
+      <a class="list-group-item list-group-item-action" href="#metro1">Любимые станции</a>
+      <a class="list-group-item list-group-item-action" href="#walk1">Прогулка</a>
+      <a class="list-group-item list-group-item-action" href="#work1">Опыт работы</a>
+      <a class="list-group-item list-group-item-action" href="#asscar1">Сруль</a>
+      <a class="list-group-item list-group-item-action" href="#spec1">Особенности 4</a>
+      <a class="list-group-item list-group-item-action" href="#f-box1">Карусель</a>
+      <a class="list-group-item list-group-item-action" href="#enemy1">Враждебные создания</a>
+      <a class="list-group-item list-group-item-action" href="#call1">Связь</a>
+    </div>
+    <button type="button" class="btn btn-primary leftmenubtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <img src="https://img.icons8.com/material-outlined/15/000000/menu--v2.png"/>
+    </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog leftmenu">
+        <div class="modal-content">
+          <div class="modal-body leftmenubody">  
+              <a class="list-group-item list-group-item-action" href="#info1" target="_blank">Основная информация</a>
+              <a class="list-group-item list-group-item-action" href="#hobby1" target="_blank">Хобби</a>
+              <a class="list-group-item list-group-item-action" href="#metro1" target="_blank">Любимые станции</a>
+              <a class="list-group-item list-group-item-action" href="#walk1" target="_blank">Прогулка</a>
+              <a class="list-group-item list-group-item-action" href="#work1" target="_blank">Опыт работы</a>
+              <a class="list-group-item list-group-item-action" href="#asscar1" target="_blank">Сруль</a>
+              <a class="list-group-item list-group-item-action" href="#spec1" target="_blank">Особенности 4</a>
+              <a class="list-group-item list-group-item-action" href="#f-box1" target="_blank">Карусель</a>
+              <a class="list-group-item list-group-item-action" href="#enemy1" target="_blank">Враждебные создания</a>
+              <a class="list-group-item list-group-item-action" href="#call1" target="_blank">Связь</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ты недооцениваешь мою Мощьь</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class='embed-container'><iframe src='https://www.youtube.com/embed//RUq0sZx6ssE' frameborder='0' allowfullscreen></iframe></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>

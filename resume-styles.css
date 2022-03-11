@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 
-.container {
+.container1 {
   max-width: 750px;
   margin: auto;
   font-size: 16px;
@@ -230,7 +230,7 @@ a:active {
   }
 }
 
-.carousel {
+.carouselo {
   position: absolute;
   left: 15.5%;
   top: 10%;
@@ -264,6 +264,26 @@ a:active {
   background-color: rgb(20, 13, 58);
 }
 
+.metro-station {
+  margin-bottom: 25px;
+}
+
+.metro-station h2 {
+  text-align: center;
+}
+
+.first-cards,
+.second-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  background: rgb(233, 159, 22);
+  border: green 0.1 solid;
+}
+
 .hobbi {
   background-color: rgb(228, 228, 143);
   box-sizing: border-box;
@@ -285,6 +305,19 @@ a:active {
 .hobbi li {
   padding-bottom: 10px;
   list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAABmJLR0QA/wD/AP+gvaeTAAAAw0lEQVQYlZXQvUoCcBQF8N/fDyIwMNGhRXIoHSKHxnqDXqDJwV5AImpw6BF8A1vCBxB7jbYgaLIxAoXAzXK5QkgZ3uVyv84957BBZNfMTjHH53/LV9hGA0+/LedRwDEyGGAPh3gVTdjHDS7QxQQ5POJgiZYitzDENOoTnAVYE9f4gCLu8IDaCvcyLmNWTrhFL47OUcEs9EwxCkc6OXwHnXfc/+HOFlJCCW184RnjELiLKo6Cez/9uE6ohzM78foNLwFkAc6fIIOnWwAYAAAAAElFTkSuQmCC);
+}
+
+.carousel1 {
+  margin-bottom: 50px;
+}
+
+.evolution {
+  background-color: rgb(43, 172, 107);
+  border-radius: 25px;
+}
+
+.evolution h2 {
+  margin-left: 20px;
 }
 
 .ttable {
@@ -364,6 +397,29 @@ a:active {
 .assist {
   position: absolute;
   top: 10%;
+  right: 17%;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(20, 13, 58);
+}
+
+.accordion-button {
+  background-color: rgb(20, 13, 58);
+  color: #0c63e4;
+}
+
+.accordion-body {
+  background-color: rgb(24, 4, 114);
+}
+
+.accordion-body a {
+  color: rgb(216, 4, 4);
+}
+
+/* .assist { 
+  position: absolute;
+  top: 10%;
   right: 15%;
   padding: 0px 20px 0px 20px;
   background-color: rgb(20, 13, 58);
@@ -384,7 +440,7 @@ a:active {
 
 .assist a {
   color: rgb(238, 40, 34);
-}
+}*/
 
 .picass {
   box-sizing: border-box;
@@ -810,7 +866,7 @@ a:active {
   text-align: center;
 }
 
-.row {
+.row1 {
   display: flex;
   margin-bottom: 20px;
 }
@@ -834,7 +890,7 @@ a:active {
   padding: 15px 0px 10px;
 }
 
-.row > .inp {
+.row1 > .inp {
   width: 50%;
 }
 
@@ -859,11 +915,27 @@ a:active {
   opacity: 0.9;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .foot {
   width: 100%;
   text-align: center;
   font-family: 'Fruktur', cursive;
-  background-color: rgb(238, 40, 34);
+  background-color: rgb(248, 138, 134);
   box-sizing: border-box;
   border-radius: 25px 25px 0 0;
 }
@@ -877,9 +949,84 @@ a:active {
   height: 150px;
   position: absolute;
   right: 17.2%;
-  top: 29%;
+  top: 33.5%;
   box-sizing: border-box;
   border-radius: 15px;
+}
+
+.triangle_modal {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  right: 19.5%;
+  top: 38%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.triangle {
+  margin-right: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 30px;
+  border-color: transparent transparent transparent transparent;
+  margin: auto;
+  margin-top: 13px;
+}
+
+.triangle:hover {
+  border-color: transparent transparent transparent var(--bs-white);
+  transition: all ease 0.4s;
+}
+
+.list-group {
+  position: fixed;
+  left: 0%;
+  top: 1%;
+}
+
+.list-group:hover {
+  background-color: rgba(61, 48, 48, 0.767);
+}
+
+.list-group-item {
+  margin: 15px;
+  font-weight: 500;
+  background: 0;
+  border: none;
+}
+
+.list-group-item:hover {
+  background-color: rgba(51, 41, 41, 0.767);
+  color: aqua;
+  border-radius: 20px;
+  transform: translateX(10px);
+  transition: all ease-in-out 0.3s;
+}
+
+.leftmenubtn {
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  display: none;
+  background: 0;
+  box-shadow: none;
+}
+
+.leftmenubtn:hover {
+  background: 0;
+}
+
+.leftmenu {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+
+.leftmenubody {
+  padding: 0;
 }
 
 @media (max-width: 1750px) {
@@ -895,6 +1042,12 @@ a:active {
   .asscar {
     display: block;
     text-align: center;
+  }
+  .list-group {
+    display: none;
+  }
+  .leftmenubtn {
+    display: block;
   }
 }
 
